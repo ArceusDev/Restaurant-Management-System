@@ -3,12 +3,35 @@
 
 #include "RestaurantManager.h"
 
+void Menue();
+
+
 int main()
 {
-    RestaurantManager item1;
+    Menue();
+    
+    
 
 
     return 0;
+}
+
+
+
+void Menue() {
+    RestaurantManager item1;
+    item1.addMenue("Wehshi cheese paratha", 200);
+    item1.addMenue("Tandoori Chicken", 800);
+    item1.addMenue("Beef Karahi", 1800);
+    item1.addMenue("Some Dish", 200);
+    item1.addMenue("Some Dish", 200);
+    item1.addMenue("Some Dish", 200);
+    item1.addMenue("Some Dish", 200);
+    item1.addMenue("Some Dish", 200);
+    item1.addMenue("Some Dish", 200);
+    item1.addMenue("Some Dish", 200);
+    item1.menue();
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
