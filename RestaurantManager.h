@@ -10,7 +10,7 @@ class RestaurantManager
 {
 	std::list<MenueItem> listItem;
 	std::list<MenueItem>::iterator it;
-	MenueItem menue_item;
+	MenueItem menue_item[10];
 	int product_id;	
 	int customer_id;
 	int managers_id;
