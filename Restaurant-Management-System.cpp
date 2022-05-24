@@ -6,7 +6,10 @@
 int main()
 {
     RestaurantManager item1;
-
+    item1.addMenue("Chicken Karahi", 1000);
+    item1.addMenue("Pizza", 1200);
+    item1.addMenue("Wehshi Paratha", 200);
+    item1.addMenue("lasagnia", 500);
 
     return 0;
 }
